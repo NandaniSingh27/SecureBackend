@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output (if you add TypeScript or a build step later)
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Runtime and temp files
+*.pid
+tmp/
+.cache/
+
+# Keys and certificates
+*.pem
+*.key
+*.crt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
